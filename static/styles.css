@@ -1,0 +1,33 @@
+.front-image {
+    background-image: url("../static/media/sma57_1.jpg");
+    height: 280px;
+    width: 100%;
+    position: absoulte;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+.quote-card {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #003371;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.teacher-image {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
