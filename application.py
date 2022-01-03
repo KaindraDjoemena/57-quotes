@@ -23,7 +23,5 @@ def index():
         name = "Pak " + teacher.capitalize()
     elif sex == "f":
         name = "Bu " + teacher.capitalize()
-    print("="*23)
-    print(image)
 
     return render_template("index.html", image=image, quote='"'+quote+'"', teacher=name)
