@@ -1,7 +1,7 @@
 from flask import Flask, render_template
+import flask_sqlalchemy
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-import sqlite3
 import random
 
 app = Flask(__name__)
