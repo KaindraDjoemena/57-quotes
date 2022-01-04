@@ -47,11 +47,11 @@ def index():
     quote = random_data.quote
     teacher_id = random_data.teacher_id
 
+    # Change teacher name
     teacher_data = Teachers.query.filter_by(id=teacher_id).all()[0]
     if teacher_data.sex == "m":
         name = "Pak " + teacher_data.name.capitalize()
     if teacher_data.sex == "f":
         name = "Bu " + teacher_data.name.capitalize()
-    
 
     return render_template("index.html", image=teacher_data.image, quote='"'+quote+'"', teacher=name)
