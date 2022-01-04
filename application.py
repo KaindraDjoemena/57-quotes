@@ -54,4 +54,4 @@ def index():
         name = "Bu " + teacher_data.name.capitalize()
     
 
-    return render_template("index.html", image=random_data.image, quote='"'+quote+'"', teacher=name)
+    return render_template("index.html", image=teacher_data.image, quote='"'+quote+'"', teacher=name)
