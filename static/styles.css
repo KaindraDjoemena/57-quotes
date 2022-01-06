@@ -31,3 +31,14 @@
     max-height: 150px;
     border-radius: 10px 10px 10px 10px;
 }
+
+.reload-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #003371;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
